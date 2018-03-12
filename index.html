@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <img src="http://jonchretien.com/img/avatar.jpg" alt="">
+    <article class="article header-article">
+      <img class="header-img" src="http://jonchretien.com/img/avatar.jpg">
       <h1>Hello</h1>
-      <h2>
+      <h2 class="header-text">
         My name is Jon Chretien. I'm a <a href="#">NYC</a> based front end engineer currently working on web apps for artists at <a href="#">Spotify</a>. Previously at <a href="#">The New York Times</a>.
       </h2>
-    </header>
-    <article>
+    </article>
+    <article class="article works">
       <header>
         <h2>Selected Works</h2>
       </header>
-      <section>
-        <h3>Spotify For Artists</h3>
+      <section class="article__work">
+        <h3><a href="#">Spotify For Artists</a></h3>
         <p>Front end code for Spotify</p>
       </section>
-      <section>
-        <h3>2010 Midterm Elections Banners</h3>
+      <section class="article__work">
+        <h3><a href="#">2010 Midterm Elections Banners</a></h3>
         <p>Front end & Ruby code for NYTimes</p>
       </section>
-      <section>
-        <h3>Opinionator Blog</h3>
+      <section class="article__work">
+        <h3><a href="#">Opinionator Blog</a></h3>
         <p>Front end code for NYTimes</p>
       </section>
-      <section>
-        <h3>Eleven Madison Park (vI)</h3>
+      <section class="article__work">
+        <h3><a href="#">Eleven Madison Park (vI)</a></h3>
         <p>Front end code for EMP (Design by Julette Cezzar)</p>
       </section>
-      <section>
-        <h3>Shake Shack Custard Cluster</h3>
+      <section class="article__work">
+        <h3><a href="#">Shake Shack Custard Cluster</a></h3>
         <p>Front end code & design for myself</p>
       </section>
-      <section>
-        <h3>The Berrics Trickipedia Stats</h3>
+      <section class="article__work">
+        <h3><a href="#">The Berrics Trickipedia Stats</a></h3>
         <p>Front end code & design for myself</p>
       </section>
-      <section>
-        <h3>Hungry City Explorer</h3>
+      <section class="article__work">
+        <h3><a href="#">Hungry City Explorer</a></h3>
         <p>Front end code, Python, & design for myself</p>
       </section>
-      <section>
-        <h3>The Holga Project</h3>
+      <section class="article__work">
+        <h3><a href="#">The Holga Project</a></h3>
         <p>Front end code & design for myself</p>
       </section>
     </article>
-    <article>
+    <article class="article">
       <header>
         <h2>Photography</h2>
       </header>
-      <section>
-        <a><img src="http://jonchretien.com/img/stripes.jpg" alt=""></a>
-        <a><img src="http://jonchretien.com/img/camera.jpg" alt=""></a>
-        <a><img src="http://jonchretien.com/img/ballerina.jpg" alt=""></a>
-        <a><img src="http://jonchretien.com/img/warriors.jpg" alt=""></a>
+      <section class="photos">
+        <a class="photo"><img src="http://jonchretien.com/img/stripes.jpg"></a>
+        <a class="photo"><img src="http://jonchretien.com/img/camera.jpg"></a>
+        <a class="photo"><img src="http://jonchretien.com/img/ballerina.jpg"></a>
+        <a class="photo"><img src="http://jonchretien.com/img/warriors.jpg"></a>
       </section>
     </article>
     <footer>
-      <ul>
+      <nav class="bottom-nav">
         <a href="#">Email</a>
         <a href="#">Github</a>
         <a href="#">Instagram</a>
-      </ul>
+      </nav>
       <p>Jon Chretien 2018</p>
     </footer>
   </body>
